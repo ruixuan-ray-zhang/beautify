@@ -24,6 +24,18 @@ creates your data folder, `~/.paper-colors/` (change it with `PAPER_COLORS_HOME`
 and color books stay there, so updating the skill never touches them. To move data from an older
 copy of the skill, run `paper_colors.py init --from <old skill folder>`.
 
+## Works well with
+
+These are separate projects by other authors. They are **not included** in this repository. Install
+them from their own repositories and follow their licenses.
+
+- [figures4papers](https://github.com/ChenLiu-1996/figures4papers) by Chen Liu: publication-ready
+  matplotlib figure demos, plus a `scientific-figure-making` skill for fonts, layout and export
+  (CC BY-NC 4.0). If both are installed, `paper-colors` handles the colors and that skill handles the
+  rest of the figure style.
+- [pantone-cli](https://github.com/malhashemi/pantone-cli) by malhashemi: offline color-book matching
+  (MIT). `paper-colors` can read an index that you build with it. See [Color data](#color-data).
+
 ## Color data
 
 This repository contains **no color book data**: no color books, no code-to-color tables, no

@@ -10,7 +10,8 @@ description: >-
   conditions (model size, strength) to shades, coloring boxes and arrows in a
   method diagram (TikZ, draw.io, PowerPoint, Figma), coloring LaTeX tables,
   links or highlighted text, or checking a paper for off-palette colors. Also
-  when scientific-figure-making needs colors: this skill owns its palette.
+  when another figure or plotting-style skill needs colors: this skill owns
+  the palette.
 license: MIT
 ---
 

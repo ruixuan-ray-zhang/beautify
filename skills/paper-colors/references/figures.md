@@ -8,7 +8,7 @@ apply()                  # color cycle = anchors; registers paper_sequential / p
 # apply(redundant=True)  # cycle color + marker together (grayscale-first venues)
 ```
 
-`apply()` only touches the color cycle and `image.cmap`; fonts, spines and export settings stay with [scientific-figure-making](../../scientific-figure-making/SKILL.md).
+`apply()` only touches the color cycle and `image.cmap`; fonts, spines and export settings stay with whatever figure style the project uses. If the user has a figure-style skill installed (for example `scientific-figure-making` from [figures4papers](https://github.com/ChenLiu-1996/figures4papers) by Chen Liu, CC BY-NC 4.0, installed separately), let it own those and keep only the colors here.
 
 ## Methods: one hue each
 
