@@ -1,4 +1,4 @@
-"""Run: python3 -m unittest discover -s ~/.claude/skills/paper-colors/tests"""
+"""Run: python3 -m unittest discover -s skills/paper-colors/tests (from the repository root)"""
 
 import sys
 import unittest
@@ -28,7 +28,7 @@ class DeltaE2000(unittest.TestCase):
 
 class Basics(unittest.TestCase):
     def test_hex_roundtrip(self):
-        self.assertEqual(cl.to_hex(cl.parse_hex("#0f4d92")), "#0F4D92")
+        self.assertEqual(cl.to_hex(cl.parse_hex("#1a5b8c")), "#1A5B8C")
 
     def test_bad_hex(self):
         with self.assertRaises(ValueError):
@@ -59,7 +59,7 @@ class Basics(unittest.TestCase):
         self.assertLess(d, 15)
 
     def test_nearest_tint(self):
-        t, d = cl.nearest_tint(cl.tint("#0F4D92", 0.3), "#0F4D92")
+        t, d = cl.nearest_tint(cl.tint("#1A5B8C", 0.3), "#1A5B8C")
         self.assertAlmostEqual(t, 0.3, places=2)
         self.assertLess(d, 0.5)
 

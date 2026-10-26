@@ -12,7 +12,7 @@ from html import escape
 import colorlib as cl
 from themes import TEXT_ROLES, Theme
 
-REGEN = "python3 ~/.claude/skills/paper-colors/scripts/paper_colors.py export {name} --out <dir>"
+REGEN = "python3 <paper-colors skill>/scripts/paper_colors.py export {name} --out <dir>"
 MARKERS = ["o", "s", "^", "D", "v", "P", "X"]
 LINESTYLES = ["-", "--", "-.", ":", (0, (5, 1)), (0, (3, 1, 1, 1)), (0, (1, 1))]
 PGF_MARKS = ["*", "square*", "triangle*", "diamond*", "pentagon*", "o", "square"]
