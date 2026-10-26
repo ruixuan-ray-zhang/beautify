@@ -1,0 +1,16 @@
+{
+  "_comment": "Pantone-only themes. Every hue anchor (and every step of an explicit ramp) is a code from swatches.json in the data folder ($PAPER_COLORS_HOME). This file is the empty template that `paper_colors.py init` copies there. Run `paper_colors.py audit` after editing; never hand-edit exported files.",
+  "defaults": {
+    "steps": 5,
+    "arrow": "neutral@4",
+    "diagram": {
+      "trainable": "ours",
+      "frozen": "neutral",
+      "data": "base2",
+      "loss": "base1",
+      "output": "base3"
+    }
+  },
+  "default_theme": null,
+  "themes": {}
+}

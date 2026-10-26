@@ -1,0 +1,46 @@
+{
+  "defaults": {
+    "steps": 5,
+    "arrow": "neutral@4",
+    "diagram": {
+      "trainable": "ours",
+      "frozen": "neutral",
+      "data": "base2",
+      "loss": "base1",
+      "output": "base3"
+    }
+  },
+  "default_theme": "fixture",
+  "themes": {
+    "fixture": {
+      "description": "Test fixture theme.",
+      "hues": {
+        "ours": "TEST OURS",
+        "base1": {
+          "anchor": "TEST B1",
+          "ramp": [
+            "TEST B1-1",
+            "TEST B1-2",
+            "TEST B1",
+            "TEST B1-4",
+            "TEST B1-5"
+          ]
+        },
+        "base2": "TEST B2",
+        "base3": "TEST B3",
+        "base4": "TEST B4",
+        "neutral": "TEST NEUTRAL"
+      },
+      "text": {
+        "highlight": "ours@1",
+        "gain": "base2@5",
+        "drop": "base1@5",
+        "link": "ours@5"
+      },
+      "diverging": [
+        "base1",
+        "ours"
+      ]
+    }
+  }
+}

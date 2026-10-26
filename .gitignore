@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+# Pantone data never goes into this repo: color books, pantone-cli indexes,
+# Connect exports and screenshots live in ~/.paper-colors/ on the user's machine.
+*.acb
+*.aco
+*.ase
+*.tsv
+pantone-match-index.json*

@@ -1,0 +1,63 @@
+{
+  "_comment": "Test fixture: invented codes, not real Pantone colors.",
+  "TEST OURS": {
+    "name": "Test Ours",
+    "hex": "#332288",
+    "method": "transcribed",
+    "added": "2026-10-21"
+  },
+  "TEST B1": {
+    "name": "Test B1",
+    "hex": "#CC6677",
+    "method": "transcribed",
+    "added": "2026-10-21"
+  },
+  "TEST B2": {
+    "name": "Test B2",
+    "hex": "#117733",
+    "method": "transcribed",
+    "added": "2026-10-21"
+  },
+  "TEST B3": {
+    "name": "Test B3",
+    "hex": "#AA4499",
+    "method": "transcribed",
+    "added": "2026-10-21"
+  },
+  "TEST B4": {
+    "name": "Test B4",
+    "hex": "#999933",
+    "method": "transcribed",
+    "added": "2026-10-21"
+  },
+  "TEST NEUTRAL": {
+    "name": "Test Neutral",
+    "hex": "#5E5E5E",
+    "method": "transcribed",
+    "added": "2026-10-21"
+  },
+  "TEST B1-1": {
+    "name": "B1 step 1",
+    "hex": "#FFE1E4",
+    "method": "sampled",
+    "added": "2026-10-21"
+  },
+  "TEST B1-2": {
+    "name": "B1 step 2",
+    "hex": "#EEA0AA",
+    "method": "sampled",
+    "added": "2026-10-21"
+  },
+  "TEST B1-4": {
+    "name": "B1 step 4",
+    "hex": "#9E4756",
+    "method": "sampled",
+    "added": "2026-10-21"
+  },
+  "TEST B1-5": {
+    "name": "B1 step 5",
+    "hex": "#732938",
+    "method": "sampled",
+    "added": "2026-10-21"
+  }
+}
